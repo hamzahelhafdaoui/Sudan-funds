@@ -76,10 +76,10 @@ export default function Home() {
                 </div>
               </div>
               <img
-                alt="Sudan Funds"
+                alt="Sudanese refugee camp showing displaced families in temporary shelters"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                 height="550"
-                src="/placeholder.svg?height=550&width=800"
+                src="/sudan-refugee-camp-1.jpg"
                 width="800"
               />
             </div>
@@ -141,10 +141,10 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <img
-                alt="Impact Stories"
+                alt="Sudanese refugee families with children in a displacement camp with UNHCR tents"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="310"
-                src="/placeholder.svg?height=310&width=550"
+                src="/sudan-refugee-camp-2.jpg"
                 width="550"
               />
               <div className="flex flex-col justify-center space-y-4">
@@ -152,7 +152,7 @@ export default function Home() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Real Impact, Real Stories</h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                     Through the generosity of donors like you, we've been able to make a significant difference in the
-                    lives of thousands of Sudanese people.
+                    lives of thousands of Sudanese people displaced by conflict.
                   </p>
                 </div>
                 <ul className="grid gap-2 py-4">
