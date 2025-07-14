@@ -46,17 +46,17 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <img
-                alt="Our Mission"
+                alt="Sudanese refugee camp showing displaced families in temporary shelters"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="310"
-                src="/placeholder.svg?height=310&width=550"
+                src="/sudan-refugee-camp-1.jpg"
                 width="550"
               />
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Mission</h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    SudanFunds was established in 2023 in response to the growing humanitarian crisis in Sudan. Our
+                    SudanFunds was established in mid-2024 in response to the growing humanitarian crisis in Sudan. Our
                     mission is to create a trusted platform that connects donors worldwide with verified Sudanese
                     campaigns, ensuring transparency and accountability in every donation.
                   </p>
@@ -129,71 +129,25 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Team</h2>
                 <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Meet the dedicated individuals working to make SudanFunds a success
+                  We are a dedicated team of volunteers working anonymously to make SudanFunds a trusted platform for
+                  humanitarian support
                 </p>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="flex flex-col items-center text-center">
-                <img
-                  alt="Team Member"
-                  className="rounded-full object-cover mb-4"
-                  height="120"
-                  src="/placeholder.svg?height=120&width=120"
-                  style={{
-                    aspectRatio: "120/120",
-                    objectFit: "cover",
-                  }}
-                  width="120"
-                />
-                <h3 className="text-xl font-bold">Amina Hassan</h3>
-                <p className="text-sm text-gray-500">Founder & Executive Director</p>
-              </div>
-              <div className="flex flex-col items-center text-center">
-                <img
-                  alt="Team Member"
-                  className="rounded-full object-cover mb-4"
-                  height="120"
-                  src="/placeholder.svg?height=120&width=120"
-                  style={{
-                    aspectRatio: "120/120",
-                    objectFit: "cover",
-                  }}
-                  width="120"
-                />
-                <h3 className="text-xl font-bold">Mohammed Ibrahim</h3>
-                <p className="text-sm text-gray-500">Head of Verification</p>
-              </div>
-              <div className="flex flex-col items-center text-center">
-                <img
-                  alt="Team Member"
-                  className="rounded-full object-cover mb-4"
-                  height="120"
-                  src="/placeholder.svg?height=120&width=120"
-                  style={{
-                    aspectRatio: "120/120",
-                    objectFit: "cover",
-                  }}
-                  width="120"
-                />
-                <h3 className="text-xl font-bold">Sarah Ahmed</h3>
-                <p className="text-sm text-gray-500">Community Outreach</p>
-              </div>
-              <div className="flex flex-col items-center text-center">
-                <img
-                  alt="Team Member"
-                  className="rounded-full object-cover mb-4"
-                  height="120"
-                  src="/placeholder.svg?height=120&width=120"
-                  style={{
-                    aspectRatio: "120/120",
-                    objectFit: "cover",
-                  }}
-                  width="120"
-                />
-                <h3 className="text-xl font-bold">Omar Khalid</h3>
-                <p className="text-sm text-gray-500">Technology Director</p>
+            <div className="max-w-2xl mx-auto text-center">
+              <div className="bg-white dark:bg-gray-800 rounded-lg p-8 shadow-sm border">
+                <Shield className="h-16 w-16 text-red-600 mx-auto mb-4" />
+                <h3 className="text-2xl font-bold mb-4">Anonymous Team</h3>
+                <p className="text-gray-500 mb-6">
+                  Our team consists of passionate volunteers from various backgrounds including technology, humanitarian
+                  work, verification specialists, and community outreach coordinators. We work together anonymously to
+                  ensure the platform remains focused on the cause rather than individual recognition.
+                </p>
+                <p className="text-gray-500">
+                  Every team member is committed to transparency, accountability, and making a meaningful impact for
+                  those affected by the crisis in Sudan.
+                </p>
               </div>
             </div>
           </div>
