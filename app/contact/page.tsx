@@ -56,34 +56,7 @@ export default function ContactPage() {
                   </p>
                 </div>
 
-                <div className="grid gap-4 py-4">
-                  <div className="flex items-start gap-4">
-                    <Mail className="h-6 w-6 text-red-600 mt-1" />
-                    <div>
-                      <h3 className="font-semibold">Email</h3>
-                      <p className="text-gray-500">info@sudanfunds.org</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <Phone className="h-6 w-6 text-red-600 mt-1" />
-                    <div>
-                      <h3 className="font-semibold">Phone</h3>
-                      <p className="text-gray-500">+1 (555) 123-4567</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <MapPin className="h-6 w-6 text-red-600 mt-1" />
-                    <div>
-                      <h3 className="font-semibold">Office</h3>
-                      <p className="text-gray-500">
-                        123 Main Street, Suite 456
-                        <br />
-                        New York, NY 10001
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+           
 
               <div className="space-y-4">
                 <Card>
