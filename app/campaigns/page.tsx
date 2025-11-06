@@ -13,6 +13,10 @@ export default function CampaignsPage() {
       title: "Newest Verified Campaigns",
       campaigns: [
         {
+          title: "Help Mahmoud Sudan",
+          url: "https://www.gofundme.com/f/help-mahmoud-sudan?attribution_id=sl:eda03472-7011-49b8-b3d8-7c2901858109&lang=en_US&ts=1762232975&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link",
+        },
+        {
           title: "Help An Artist Stuck in Sudanese War zone",
           organizer: "Fundraiser by Dominique Banks",
           url: "https://www.gofundme.com/f/help-an-artist-stuck-in-sudanese-warzone?attribution_id=sl:d65e0fe8-0b0d-4846-b925-82953c4dd26b&lang=en_US&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link",

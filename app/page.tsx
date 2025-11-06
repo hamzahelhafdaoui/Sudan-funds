@@ -79,6 +79,28 @@ export default function HomePage() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-1 lg:gap-12">
               <div className="space-y-6">
                 <div className="border rounded-lg p-6 bg-white dark:bg-gray-800">
+                  <h3 className="text-xl font-bold mb-2">Help Evacuate A Sudanese Student's Family From Darfur</h3>
+                  <p className="text-blue-600 hover:underline mb-3">
+                    <a
+                      href="https://www.gofundme.com/f/help-mahmoud-sudan?attribution_id=sl:eda03472-7011-49b8-b3d8-7c2901858109&lang=en_US&ts=1762232975&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://www.gofundme.com/f/help-mahmoud-sudan?attribution_id=sl:eda03472-7011-49b8-b3d8-7c2901858109&lang=en_US&ts=1762232975&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link
+                    </a>
+                  </p>
+                  <Button className="bg-red-600 hover:bg-red-700" size="sm">
+                    <a
+                      href="https://www.gofundme.com/f/help-mahmoud-sudan?attribution_id=sl:eda03472-7011-49b8-b3d8-7c2901858109&lang=en_US&ts=1762232975&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Donate
+                    </a>
+                  </Button>
+                </div>
+
+                <div className="border rounded-lg p-6 bg-white dark:bg-gray-800">
                   <h3 className="text-xl font-bold mb-2">Help An Artist Stuck in Sudanese War zone</h3>
                   <p className="text-gray-600 dark:text-gray-300 mb-2">Organized by Dominique Banks</p>
                   <p className="text-blue-600 hover:underline mb-3">
