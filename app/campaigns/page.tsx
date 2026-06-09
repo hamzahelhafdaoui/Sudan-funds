@@ -13,6 +13,10 @@ export default function CampaignsPage() {
       title: "Newest Verified Campaigns",
       campaigns: [
         {
+          title: "Help a Sudanese Student Continue Her Studies",
+          url: "https://chuffed.org/project/168543-help-a-sudanese-student-continue-her-studies?utm_campaign=campaign&utm_id=168543&utm_medium=twitter&utm_source=chuffedreferral",
+        },
+        {
           title: "Help Mahmoud Sudan",
           url: "https://www.gofundme.com/f/help-mahmoud-sudan?attribution_id=sl:eda03472-7011-49b8-b3d8-7c2901858109&lang=en_US&ts=1762232975&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=copy_link",
         },
@@ -124,6 +128,10 @@ export default function CampaignsPage() {
     {
       title: "Education Support",
       campaigns: [
+        {
+          title: "Help a Sudanese Student Continue Her Studies",
+          url: "https://chuffed.org/project/168543-help-a-sudanese-student-continue-her-studies?utm_campaign=campaign&utm_id=168543&utm_medium=twitter&utm_source=chuffedreferral",
+        },
         {
           title: "Help a girl affected by the war finish her university degree (organized by Rawiaa Ahmed)",
           url: "https://gofund.me/13d36750",
